@@ -5,16 +5,9 @@
     <title>Namu Darbai</title>
 </head>
 <body>
-    <form>
-        <input id="age" type="number">
-        <input type="submit" onclick="canGoToArmy()">
-        <br>
-        Teistas
-        <input id="teistas" type="radio" name="teistumas" value="teistas">
-        <br>
-        Neteistas
-        <input id="neteistas" type="radio" name="teistumas" value="neteistas">
-    </form>
+    <p>Enter row number</p>
+    <input type="number" id="enteredNumber" onchange="starTriangle()">
+    <p id="ansver"></p>
 <script src="script.js"></script>
 </body>
 </html>
