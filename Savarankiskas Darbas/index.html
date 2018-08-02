@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h2>Used Cars Table</h2>
+    <table id="carsTable">
+        <tr>
+            <th>ID</th>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>No. Doors</th>
+            <th>Price</th>
+        </tr>
+    </table>
+
+    <h3>Add Car</h3>
+    Brand
+    <input id="addBrand" type="text">
+    <br>
+    Model
+    <input id="addModel" type="text">
+    <br>
+    Doors no.
+    <input id="addDoors" type="text">
+    <br>
+    Price
+    <input id="addPrice" type="text">
+    <br>
+    <input type="submit" onclick="addCarToTable()">
+
+    <h3>Remove Car</h3>
+    ID
+    <input id="idForDelete" type="text">
+    <input type="submit" onclick="removeCarById()">
+<script src="script.js"></script>
+</body>
+</html>
